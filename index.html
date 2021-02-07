@@ -5,33 +5,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
+  
 </head>
 <body>
     <div class="container">
-        <div class="nav-bar">
-
-            <div class="nav-bar-left">
-
-                <div class="nav-bar-link active-nav-link">
-                    <a href="index.html">HOME</a>
+        <nav class="nav-bar">
+                <div class="nav-button" onclick="toggle()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
                 </div>
-
-                <div class="nav-bar-link">
-                    <a href="works.html">WORKS</a>
-                </div>
-
-                <div class="nav-bar-link">
-                    <a href="about.html">ABOUT</a>
+                <ul  class="nav-bar-left">
+                    <li class="nav-bar-link active-nav-link">
+                        <a href="index.html">HOME</a>
+                    </li>
+                    
+                    <li class="nav-bar-link">
+                        <a href="works.html">WORKS</a>
+                    </li>
+                    
+                    <li class="nav-bar-link">
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                </ul>
+            <div class="nav-bar-right">
+                <div class="nav-bar-name"><a href="https://mahirlabibdihan.github.io">MAHIR LABIB DIHAN</a></div>
+            </div>
+        </nav> 
+        <div class="banner">
+            <h1 class="banner-name">Mahir Labib Dihan</h1>
+            <img src="images/Profile.jpg" class="banner-image">
+            <h1 class="banner-intro">
+                <div class="banner-education">
+                    <p>
+                        Studies Computer Science and Engineering at Bangladesh University of Engineering and Technology (BUET)
+                    </p>
                 </div>
                 
-
-            </div>
-
-            <div class="nav-bar-right">
-                <div><a href="https://mahirlabibdihan.github.io">MAHIR LABIB DIHAN</a></div>
-            </div>
-
+                <div class="banner-details">
+                    <p>
+                        Interested in Ethical Hacking , Cyber Security , Graphics Designing , Web Development and Competetive Programming<br>						
+                    </p>
+                    <p>
+                        Begginer at programming . Still learning languages
+                    </p>
+                </div>
+            </h1>
         </div>
     </div>
+    <script src="app.js"> </script>
 </body>
 </html>

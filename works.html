@@ -9,26 +9,36 @@
 <body>
     <div class="container">
         <div class="nav-bar">
-            <div class="nav-bar-left">
-
-                <div class="nav-bar-link ">
+            <div class="nav-button" onclick="toggle()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul  class="nav-bar-left">
+                <li class="nav-bar-link">
                     <a href="index.html">HOME</a>
-                </div>
-
-                <div class="nav-bar-link active-nav-link">
-                    <a href="works.html">WORKS</a>
-                </div>
-
-                <div class="nav-bar-link ">
-                    <a href="about.html">ABOUT</a>
-                </div>
+                </li>
                 
-            </div>
+                <li class="nav-bar-link  active-nav-link">
+                    <a href="works.html">WORKS</a>
+                </li>
+                
+                <li class="nav-bar-link">
+                    <a href="about.html">ABOUT</a>
+                </li>
+            </ul>
             <div class="nav-bar-right">
-                <div><a href="https://mahirlabibdihan.github.io">MAHIR LABIB DIHAN</a></div>
+                <div class="nav-bar-name"><a href="https://mahirlabibdihan.github.io">MAHIR LABIB DIHAN</a></div>
             </div>
+        </div>
 
+        <div class="projects">
+            <div class="games"></div>
+            <div class="apps"></div>
+            <div class="code"></div>
+            <div class="visualizer"></div>
         </div>
     </div>
+    <script src="app.js"> </script>
 </body>
 </html>

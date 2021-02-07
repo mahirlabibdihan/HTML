@@ -1,0 +1,101 @@
+input:-webkit-autofill,input:-webkit-autofill:hover, input:-webkit-autofill:focus{
+-webkit-text-fill-color: white;
+-webkit-box-shadow: 0 0 0px 1000px #191919 inset;
+}
+body{                
+background: #1a2531;
+sans-serif;  
+}
+
+::selection {
+background: #2ecc71;
+}
+
+
+::placeholder {
+    color: gray;
+    opacity: .8;
+  }
+
+.login-form{
+width:420px;
+height:320px;
+background-color:#191919;
+padding: 20px;
+position: absolute;
+text-align: center;                
+left:50%;
+top:50%;
+border-radius: 25px;
+transform: translate(-50%,-50%);
+}
+
+.login-form h1{
+width:35%;
+font-size: 250%;
+color: white;
+text-transform: uppercase;
+transition:0.3s;
+margin-left: 50%;
+transform:translateX(-50%);
+}
+
+.login-form h1:hover{
+color:  #2871a1;
+text-transform: uppercase;
+cursor:default;
+transition:0.3s;
+}
+
+.login-form input[type="password"],.login-form input[type="text"]{
+background:none;
+height: 45px;
+width: 280px;
+border-radius: 24px;
+display:block;                
+margin:25px auto;  
+text-align: center;   
+height: 40px;
+border-style: solid;
+border-width: 2px;
+border-color: #3498db;   
+outline: none;   
+color:white;
+transition:0.3s;
+}
+
+.login-form input:focus[type="password"],
+.login-form input:focus[type="text"]{
+width: 330px;
+border-color: #2ecc71;
+}
+
+/* .login-form input:hover[type="password"],
+.login-form input:hover[type="text"]{
+border-color: #2ecc71;
+} */
+.login-form input[type="submit"],.login-form input[type="button"]{
+border:0;
+background:none;
+height: 45px;
+width: 130px;
+border-radius: 24px;              
+margin-left: 10px;
+margin-right: 10px;     
+text-align: center;   
+height: 50px;
+border-style: solid;
+border-width: 2px;
+border-color: #2ecc71;   
+outline: none;  
+color:white; 
+transition:0.3s;     
+}
+.login-form input[type="submit"]:hover,.login-form input[type="button"]:hover{
+color: #1a2531;
+background-color: #2ecc71;
+transition:0.3s; 
+font-style: italic;
+font-weight: bold;
+}
+
